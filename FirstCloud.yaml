@@ -1,0 +1,10 @@
+Resources:
+  Ec2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: t2.micro
+      ImageId: ami-005b11f8b84489615 # T2 Micro N. Virginia 
+      Tags:
+        - Key: Name
+          Value: My First EC2 Instance
+          
